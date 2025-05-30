@@ -1,6 +1,5 @@
 # (05:14:22)
 
-# if name == 'main':
-
-# in simple if we import a file (__name__ = file_name)
-# If we run code in main module file (__name__ = main)
+# if __name__ == '__main__':
+# When a Python file is run directly, __name__ is set to '__main__'
+# When a Python file is imported as a module, __name__ is set to the module's name (i.e., the file name without .py)
